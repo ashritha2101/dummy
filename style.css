@@ -1,21 +1,29 @@
-.container {
-  width: fit-content;
+* {
+  padding: 0;
+  margin: 0;
 }
+
+.container {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 .header {
   height: 100px;
   background-color: tan;
 }
 
 .innerContainer {
-  height: calc(100vh - 200px);
+  height: calc(100% - 200px);
   overflow: auto;
 }
 
 .footer {
   background-color: tan;
   height: 100px;
-  display: flex;
-  align-items: center;
 }
 .buttonComponent {
   height: 50px;
@@ -24,7 +32,6 @@
   border: 1px solid black;
 }
 
-body {
-  padding: 0;
-  margin: 0;
+html {
+  height: 100%;
 }
