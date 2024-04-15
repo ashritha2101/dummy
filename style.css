@@ -3,13 +3,17 @@
   margin: 0;
 }
 
-.container {
+html {
   height: 100%;
 }
 
 body {
   height: 100%;
 }
+.container {
+  height: 100%;
+}
+
 
 .header {
   height: 100px;
@@ -32,6 +36,3 @@ body {
   border: 1px solid black;
 }
 
-html {
-  height: 100%;
-}
